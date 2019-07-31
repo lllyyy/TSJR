@@ -1,0 +1,208 @@
+PODS:
+  - Bugly (2.5.0)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - DZNEmptyDataSet (1.8.1)
+  - DZNWebViewController (3.2)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Harpy (4.1.14)
+  - libwebp (0.6.1):
+    - libwebp/core (= 0.6.1)
+    - libwebp/dec (= 0.6.1)
+    - libwebp/demux (= 0.6.1)
+    - libwebp/dsp (= 0.6.1)
+    - libwebp/enc (= 0.6.1)
+    - libwebp/mux (= 0.6.1)
+    - libwebp/utils (= 0.6.1)
+    - libwebp/webp (= 0.6.1)
+  - libwebp/core (0.6.1):
+    - libwebp/webp
+  - libwebp/dec (0.6.1):
+    - libwebp/core
+  - libwebp/demux (0.6.1):
+    - libwebp/core
+  - libwebp/dsp (0.6.1):
+    - libwebp/core
+  - libwebp/enc (0.6.1):
+    - libwebp/core
+  - libwebp/mux (0.6.1):
+    - libwebp/core
+  - libwebp/utils (0.6.1):
+    - libwebp/core
+  - libwebp/webp (0.6.1)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SDWebImage/Core (4.4.3)
+  - SDWebImage/WebP (4.4.3):
+    - libwebp (~> 0.5)
+    - SDWebImage/Core
+  - TLKit (0.0.3):
+    - TLKit/TLCategories (= 0.0.3)
+    - TLKit/TLShortcut (= 0.0.3)
+  - TLKit/TLCategories (0.0.3):
+    - TLKit/TLCategories/Foundation (= 0.0.3)
+    - TLKit/TLCategories/UIKit (= 0.0.3)
+  - TLKit/TLCategories/Foundation (0.0.3):
+    - TLKit/TLCategories/Foundation/NSArray (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSBundle (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSData (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSDate (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSDictionary (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSDictionary (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSFileManager (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSMutableArray (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSMutableDictionary (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSNotificationCenter (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSObject (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSString (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSTimer (= 0.0.3)
+    - TLKit/TLCategories/Foundation/NSURL (= 0.0.3)
+  - TLKit/TLCategories/Foundation/NSArray (0.0.3)
+  - TLKit/TLCategories/Foundation/NSBundle (0.0.3)
+  - TLKit/TLCategories/Foundation/NSData (0.0.3)
+  - TLKit/TLCategories/Foundation/NSDate (0.0.3)
+  - TLKit/TLCategories/Foundation/NSDictionary (0.0.3)
+  - TLKit/TLCategories/Foundation/NSFileManager (0.0.3)
+  - TLKit/TLCategories/Foundation/NSMutableArray (0.0.3)
+  - TLKit/TLCategories/Foundation/NSMutableDictionary (0.0.3)
+  - TLKit/TLCategories/Foundation/NSNotificationCenter (0.0.3)
+  - TLKit/TLCategories/Foundation/NSObject (0.0.3)
+  - TLKit/TLCategories/Foundation/NSString (0.0.3):
+    - TLKit/TLCategories/Foundation/NSData
+  - TLKit/TLCategories/Foundation/NSTimer (0.0.3)
+  - TLKit/TLCategories/Foundation/NSURL (0.0.3)
+  - TLKit/TLCategories/UIKit (0.0.3):
+    - TLKit/TLCategories/UIKit/UIBarButtonItem (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIButton (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UICollectionViewCell (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIColor (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIControl (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIImage (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UINavigationBar (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UINavigationController (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UINavigationItem (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIScrollView (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UITextField (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UITextView (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIView (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIViewController (= 0.0.3)
+    - TLKit/TLCategories/UIKit/UIWindow (= 0.0.3)
+  - TLKit/TLCategories/UIKit/UIBarButtonItem (0.0.3)
+  - TLKit/TLCategories/UIKit/UIButton (0.0.3):
+    - TLKit/TLCategories/UIKit/UIImage
+  - TLKit/TLCategories/UIKit/UICollectionViewCell (0.0.3)
+  - TLKit/TLCategories/UIKit/UIColor (0.0.3)
+  - TLKit/TLCategories/UIKit/UIControl (0.0.3)
+  - TLKit/TLCategories/UIKit/UIImage (0.0.3)
+  - TLKit/TLCategories/UIKit/UINavigationBar (0.0.3)
+  - TLKit/TLCategories/UIKit/UINavigationController (0.0.3)
+  - TLKit/TLCategories/UIKit/UINavigationItem (0.0.3):
+    - TLKit/TLCategories/UIKit/UIBarButtonItem
+  - TLKit/TLCategories/UIKit/UIScrollView (0.0.3)
+  - TLKit/TLCategories/UIKit/UITextField (0.0.3)
+  - TLKit/TLCategories/UIKit/UITextView (0.0.3)
+  - TLKit/TLCategories/UIKit/UIView (0.0.3):
+    - TLKit/TLCategories/Foundation/NSObject
+    - TLKit/TLShortcut
+  - TLKit/TLCategories/UIKit/UIViewController (0.0.3):
+    - TLKit/TLCategories/UIKit/UIBarButtonItem
+    - TLKit/TLCategories/UIKit/UINavigationController
+    - TLKit/TLCategories/UIKit/UIView
+  - TLKit/TLCategories/UIKit/UIWindow (0.0.3)
+  - TLKit/TLShortcut (0.0.3)
+  - XHLaunchAd (3.9.8):
+    - FLAnimatedImage (~> 1.0.12)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Bugly
+  - CocoaLumberjack
+  - DTCoreText
+  - DZNEmptyDataSet
+  - DZNWebViewController
+  - FMDB
+  - Harpy
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SDWebImage/WebP
+  - TLKit (~> 0.0.3)
+  - XHLaunchAd
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - CocoaLumberjack
+    - DTCoreText
+    - DTFoundation
+    - DZNEmptyDataSet
+    - DZNWebViewController
+    - FLAnimatedImage
+    - FMDB
+    - Harpy
+    - libwebp
+    - SDWebImage
+    - TLKit
+    - XHLaunchAd
+    - YYKit
+
+EXTERNAL SOURCES:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Harpy: b2fbe6819f6a8932df32d7cd2fb20f442df86bbc
+  libwebp: 38b601da310fe7c329c638d0c0d10aed006a54fe
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  TLKit: 85bbd71d96639db7f1ca91ca87d06f1a476bd85e
+  XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 490e9512e998bb6eee5ccc56af405339c407ef4a
+
+COCOAPODS: 1.6.0.beta.2

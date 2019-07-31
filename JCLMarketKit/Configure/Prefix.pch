@@ -1,0 +1,85 @@
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "AppDelegate.h"
+#import "JCLFramework.h"
+#import "MBProgressHUD.h"
+#import "JCLKitDefine.h"
+#import "JCLSocketMain.h"
+#import "MMBaseModel.h"
+#import "MMResultModel.h"
+#import "MMResultV2Model.h"
+#import "YSKitObj.h"
+#import "JCLMarketObj.h"
+#import "JCLUserData.h"
+#import "JSTextView.h"
+#import "UITableView+Base.h"
+#import "JCLHttps.h"
+#import <JCLManageLib/JCLBaseManage.h>
+#import "JCLSVProgressHUD.h"
+#import "LHCObject.h"
+#import "Masonry.h"
+#import <UMShare/UMShare.h>
+#import <UMCommon/UMCommon.h>
+#import <YYKit/YYKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "JCLUserModel.h"
+#import "JCLUserLoginList.h"
+#import "YYCache+MMAdditions.h"
+#import "JCLUserSession.h"
+#import "TZImagePickerController.h"
+#import "FMDB.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <TLKit/TLKit.h>
+#import <DTCoreText/DTCoreText.h>
+  
+#import "JCLKitObj.h"
+#import "UIView+Category.h"
+#import "UIButton+Category.h"
+#import "JCLColorObj.h"
+
+#import "JCLChartManage.h"
+#import "JCLChartPath.h"
+#import "JCLChartScale.h"
+#import "JCLDateObj.h"
+#import "JCLMarketObj.h"
+/////////////new///////////
+#import "MRCConstant.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "MRCTableViewModel.h"
+#import "MRCTableViewController.h"
+#import "BAWKWebView_WebP.h"
+#import "TSJRConstants.h"
+#import "TSJRCommonURL.h"
+//////////
+//数据研究
+#define SJYJ @"http://120.55.184.28:9001/freehqwebserver/"
+//龙虎榜
+#define LHBURL @"http://120.26.228.246:8288/data_lhb/servlet/"
+#define JCLURL @"http://120.26.228.246:8188/yssys/servlet/"
+#define yburl @"http://lhb.blncj.cn:8080"
+
+
+
+#define zbUrl @"http://120.26.228.246:8188"
+#define bcUrl @"http://120.55.184.28:9091"
+
+
+#define bc1Url @"http://hq.blncj.cn:9001"
+#define yb1url @"http://lhb.blncj.cn"
+#define lhurl @"http://lhb.blncj.cn:8288"
+#define ifurl @"http://web.blncj.cn:8080" // 研报
+#define zxurl @"http://121.41.49.99:8085"
+#define furl @"http://f10.jincelue.net:8080" //F10
+
+
+
+
+
+
+ 
+ 
+
+
+#endif

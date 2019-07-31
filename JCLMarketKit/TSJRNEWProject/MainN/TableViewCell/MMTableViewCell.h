@@ -1,0 +1,4 @@
+
+@interface MMTableViewCell : UITableViewCell
+
+@end

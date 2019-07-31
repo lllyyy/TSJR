@@ -1,0 +1,679 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "symbol": "UXIN",
+            "name": "优信"
+        },
+        {
+            "symbol": "NIO",
+            "name": "蔚来"
+        },
+        {
+            "symbol": "JD",
+            "name": "京东"
+        },
+        {
+            "symbol": "QD",
+            "name": "趣店"
+        },
+        {
+            "symbol": "TSM",
+            "name": "台积电"
+        },
+        {
+            "symbol": "BABA",
+            "name": "阿里巴巴"
+        },
+        {
+            "symbol": "BILI",
+            "name": "哔哩哔哩"
+        },
+        {
+            "symbol": "HUYA",
+            "name": "虎牙"
+        },
+        {
+            "symbol": "TIGR",
+            "name": "老虎证券"
+        },
+        {
+            "symbol": "IQ",
+            "name": "爱奇艺"
+        },
+        {
+            "symbol": "HTHT",
+            "name": "华住酒店集团"
+        },
+        {
+            "symbol": "TME",
+            "name": "腾讯音乐"
+        },
+        {
+            "symbol": "VIPS",
+            "name": "唯品会"
+        },
+        {
+            "symbol": "XNET",
+            "name": "迅雷"
+        },
+        {
+            "symbol": "CTRP",
+            "name": "携程网"
+        },
+        {
+            "symbol": "BIDU",
+            "name": "百度"
+        },
+        {
+            "symbol": "AUO",
+            "name": "友达光电"
+        },
+        {
+            "symbol": "PDD",
+            "name": "拼多多"
+        },
+        {
+            "symbol": "QTT",
+            "name": "趣头条"
+        },
+        {
+            "symbol": "ASX",
+            "name": "日月光半导体"
+        },
+        {
+            "symbol": "EDU",
+            "name": "新东方"
+        },
+        {
+            "symbol": "CNET",
+            "name": "中网在线"
+        },
+        {
+            "symbol": "MOMO",
+            "name": "陌陌"
+        },
+        {
+            "symbol": "PPDF",
+            "name": "拍拍贷"
+        },
+        {
+            "symbol": "SSW",
+            "name": "西斯班"
+        },
+        {
+            "symbol": "WB",
+            "name": "微博"
+        },
+        {
+            "symbol": "XRF",
+            "name": "信而富"
+        },
+        {
+            "symbol": "RUHN",
+            "name": "如涵控股"
+        },
+        {
+            "symbol": "JRJC",
+            "name": "金融界"
+        },
+        {
+            "symbol": "LFC",
+            "name": "中国人寿"
+        },
+        {
+            "symbol": "YY",
+            "name": "欢聚时代"
+        },
+        {
+            "symbol": "CHL",
+            "name": "中移动"
+        },
+        {
+            "symbol": "HIMX",
+            "name": "奇景光电"
+        },
+        {
+            "symbol": "ATAI",
+            "name": "ATA公司"
+        },
+        {
+            "symbol": "BGNE",
+            "name": "百济神州"
+        },
+        {
+            "symbol": "HOLI",
+            "name": "和利时自动化"
+        },
+        {
+            "symbol": "LX",
+            "name": "乐信"
+        },
+        {
+            "symbol": "SOGO",
+            "name": "搜狗"
+        },
+        {
+            "symbol": "WUBA",
+            "name": "58同城"
+        },
+        {
+            "symbol": "JMEI",
+            "name": "聚美优品"
+        },
+        {
+            "symbol": "AMC",
+            "name": "AMC院线"
+        },
+        {
+            "symbol": "FHL",
+            "name": "富途"
+        },
+        {
+            "symbol": "DQ",
+            "name": "大全新能源"
+        },
+        {
+            "symbol": "CSIQ",
+            "name": "阿特斯"
+        },
+        {
+            "symbol": "NTES",
+            "name": "网易"
+        },
+        {
+            "symbol": "CJJD",
+            "name": "九洲大药房"
+        },
+        {
+            "symbol": "ZTO",
+            "name": "中通"
+        },
+        {
+            "symbol": "WBAI",
+            "name": "500彩票网"
+        },
+        {
+            "symbol": "LEDS",
+            "name": "旭明光电"
+        },
+        {
+            "symbol": "JT",
+            "name": "简普科技"
+        },
+        {
+            "symbol": "KNDI",
+            "name": "康迪车业"
+        },
+        {
+            "symbol": "ATHM",
+            "name": "汽车之家"
+        },
+        {
+            "symbol": "BEST",
+            "name": "百世集团"
+        },
+        {
+            "symbol": "HX",
+            "name": "和信贷"
+        },
+        {
+            "symbol": "SINA",
+            "name": "新浪"
+        },
+        {
+            "symbol": "SMI",
+            "name": "中芯国际"
+        },
+        {
+            "symbol": "VNET",
+            "name": "世纪互联"
+        },
+        {
+            "symbol": "CIFS",
+            "name": "圣盈信"
+        },
+        {
+            "symbol": "SFUN",
+            "name": "搜房网"
+        },
+        {
+            "symbol": "UMC",
+            "name": "联电"
+        },
+        {
+            "symbol": "RENN",
+            "name": "人人公司"
+        },
+        {
+            "symbol": "NCTY",
+            "name": "第九城市"
+        },
+        {
+            "symbol": "JKS",
+            "name": "晶科能源"
+        },
+        {
+            "symbol": "SIMO",
+            "name": "慧荣科技"
+        },
+        {
+            "symbol": "VIOT",
+            "name": "云米"
+        },
+        {
+            "symbol": "NIU",
+            "name": "小牛电动"
+        },
+        {
+            "symbol": "JG",
+            "name": "极光"
+        },
+        {
+            "symbol": "BITA",
+            "name": "易车网"
+        },
+        {
+            "symbol": "CREG",
+            "name": "盈丰科技"
+        },
+        {
+            "symbol": "CGA",
+            "name": "中国绿色农业"
+        },
+        {
+            "symbol": "QFIN",
+            "name": "360金融"
+        },
+        {
+            "symbol": "CMCM",
+            "name": "猎豹移动"
+        },
+        {
+            "symbol": "PT",
+            "name": "品钛"
+        },
+        {
+            "symbol": "SOHU",
+            "name": "搜狐"
+        },
+        {
+            "symbol": "AMCN",
+            "name": "航美传媒"
+        },
+        {
+            "symbol": "JMU",
+            "name": "众美联"
+        },
+        {
+            "symbol": "SHI",
+            "name": "上石化"
+        },
+        {
+            "symbol": "CBPO",
+            "name": "泰邦生物"
+        },
+        {
+            "symbol": "CHU",
+            "name": "中国联通(香港)"
+        },
+        {
+            "symbol": "TC",
+            "name": "团车"
+        },
+        {
+            "symbol": "XIN",
+            "name": "鑫苑置业"
+        },
+        {
+            "symbol": "NOAH",
+            "name": "诺亚财富"
+        },
+        {
+            "symbol": "CHT",
+            "name": "中华电信"
+        },
+        {
+            "symbol": "JP",
+            "name": "钜派"
+        },
+        {
+            "symbol": "CCCL",
+            "name": "中国陶瓷"
+        },
+        {
+            "symbol": "SORL",
+            "name": "瑞立集团"
+        },
+        {
+            "symbol": "KGJI",
+            "name": "金凰珠宝"
+        },
+        {
+            "symbol": "ACH",
+            "name": "中国铝业"
+        },
+        {
+            "symbol": "FENG",
+            "name": "凤凰新媒体"
+        },
+        {
+            "symbol": "RCON",
+            "name": "研控科技"
+        },
+        {
+            "symbol": "SNP",
+            "name": "中石化"
+        },
+        {
+            "symbol": "CEA",
+            "name": "东方航空"
+        },
+        {
+            "symbol": "RYB",
+            "name": "红黄蓝"
+        },
+        {
+            "symbol": "SEED",
+            "name": "奥瑞金种业"
+        },
+        {
+            "symbol": "YRD",
+            "name": "宜人贷"
+        },
+        {
+            "symbol": "GURE",
+            "name": "海湾资源"
+        },
+        {
+            "symbol": "CHA",
+            "name": "中国电信"
+        },
+        {
+            "symbol": "GHG",
+            "name": "格林酒店"
+        },
+        {
+            "symbol": "PUYI",
+            "name": "普益财富"
+        },
+        {
+            "symbol": "BEDU",
+            "name": "博实乐"
+        },
+        {
+            "symbol": "HLG",
+            "name": "海亮教育"
+        },
+        {
+            "symbol": "MTC",
+            "name": "美美证券"
+        },
+        {
+            "symbol": "PTR",
+            "name": "中石油"
+        },
+        {
+            "symbol": "SKYS",
+            "name": "天华阳光"
+        },
+        {
+            "symbol": "JOBS",
+            "name": "前程无忧"
+        },
+        {
+            "symbol": "XYF",
+            "name": "小赢科技"
+        },
+        {
+            "symbol": "CCM",
+            "name": "泰和诚医疗"
+        },
+        {
+            "symbol": "CEO",
+            "name": "中海油"
+        },
+        {
+            "symbol": "CCIH",
+            "name": "蓝汛"
+        },
+        {
+            "symbol": "CYOU",
+            "name": "畅游"
+        },
+        {
+            "symbol": "CTK",
+            "name": "触宝"
+        },
+        {
+            "symbol": "CADC",
+            "name": "新奥混凝土"
+        },
+        {
+            "symbol": "HMI",
+            "name": "华米"
+        },
+        {
+            "symbol": "REDU",
+            "name": "瑞思"
+        },
+        {
+            "symbol": "STG",
+            "name": "尚德机构"
+        },
+        {
+            "symbol": "GSUM",
+            "name": "国双科技"
+        },
+        {
+            "symbol": "PME",
+            "name": "平潭海洋"
+        },
+        {
+            "symbol": "HNP",
+            "name": "华能电力"
+        },
+        {
+            "symbol": "GSH",
+            "name": "广深铁路"
+        },
+        {
+            "symbol": "MOGU",
+            "name": "蘑菇街"
+        },
+        {
+            "symbol": "TEDU",
+            "name": "达内科技"
+        },
+        {
+            "symbol": "CXDC",
+            "name": "鑫达集团"
+        },
+        {
+            "symbol": "NVFY",
+            "name": "诺华家具"
+        },
+        {
+            "symbol": "WEI",
+            "name": "微贷网"
+        },
+        {
+            "symbol": "IMOS",
+            "name": "南茂科技"
+        },
+        {
+            "symbol": "CLWT",
+            "name": "欧陆科仪"
+        },
+        {
+            "symbol": "BORN",
+            "name": "博润"
+        },
+        {
+            "symbol": "SECO",
+            "name": "寺库"
+        },
+        {
+            "symbol": "SOL",
+            "name": "昱辉阳光"
+        },
+        {
+            "symbol": "ZNH",
+            "name": "南方航空"
+        },
+        {
+            "symbol": "LEJU",
+            "name": "乐居"
+        },
+        {
+            "symbol": "CO",
+            "name": "中国脐带血库"
+        },
+        {
+            "symbol": "OIIM",
+            "name": "凹凸科技"
+        },
+        {
+            "symbol": "FFHL",
+            "name": "富维薄膜"
+        },
+        {
+            "symbol": "LITB",
+            "name": "兰亭集势"
+        },
+        {
+            "symbol": "CYD",
+            "name": "玉柴国际"
+        },
+        {
+            "symbol": "TOUR",
+            "name": "途牛"
+        },
+        {
+            "symbol": "ATV",
+            "name": "橡果国际"
+        },
+        {
+            "symbol": "CLDC",
+            "name": "中国贷款公司"
+        },
+        {
+            "symbol": "HIHO",
+            "name": "公路控股"
+        },
+        {
+            "symbol": "COE",
+            "name": "无忧英语"
+        },
+        {
+            "symbol": "DL",
+            "name": "正保教育"
+        },
+        {
+            "symbol": "YIN",
+            "name": "银科控股"
+        },
+        {
+            "symbol": "OSN",
+            "name": "奥盛创新"
+        },
+        {
+            "symbol": "LAIX",
+            "name": "流利说"
+        },
+        {
+            "symbol": "GIGM",
+            "name": "和信超媒体"
+        },
+        {
+            "symbol": "CNTF",
+            "name": "泰克飞石"
+        },
+        {
+            "symbol": "SINO",
+            "name": "中环球船务"
+        },
+        {
+            "symbol": "HGSH",
+            "name": "汉广厦房地产"
+        },
+        {
+            "symbol": "CNF",
+            "name": "泛华金融"
+        },
+        {
+            "symbol": "YI",
+            "name": "1药网"
+        },
+        {
+            "symbol": "UTSI",
+            "name": "UT斯达康"
+        },
+        {
+            "symbol": "EHIC",
+            "name": "一嗨租车"
+        },
+        {
+            "symbol": "SGOC",
+            "name": "上为"
+        },
+        {
+            "symbol": "CHNR",
+            "name": "中国天然资源"
+        },
+        {
+            "symbol": "CAAS",
+            "name": "中汽系统"
+        },
+        {
+            "symbol": "APWC",
+            "name": "亚太电线电缆"
+        },
+        {
+            "symbol": "EVK",
+            "name": "华瑞服装"
+        },
+        {
+            "symbol": "DSWL",
+            "name": "德卫"
+        },
+        {
+            "symbol": "BNSO",
+            "name": "恒异电子"
+        },
+        {
+            "symbol": "JASO",
+            "name": "晶澳太阳能"
+        },
+        {
+            "symbol": "KANG",
+            "name": "爱康国宾"
+        },
+        {
+            "symbol": "SPIL",
+            "name": "矽品"
+        },
+        {
+            "symbol": "SVA",
+            "name": "科兴生物"
+        },
+        {
+            "symbol": "NFEC",
+            "name": "能发伟业"
+        },
+        {
+            "symbol": "HPJ",
+            "name": "豪鹏国际"
+        },
+        {
+            "symbol": "GHII",
+            "name": "金马国际"
+        },
+        {
+            "symbol": "CCCR",
+            "name": "鲈乡小贷"
+        }
+    ],
+    "message": "获取成功！",
+    "success": true
+}

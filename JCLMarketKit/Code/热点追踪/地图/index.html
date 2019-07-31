@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		 //实现真实一像素显示
+		    function getOnePx(){
+		        var dpi=window.devicePixelRatio,//获取屏幕像素比
+		            scalez=1/dpi;
+		        document.write('<meta content="width=device-width,initial-scale='+scalez+',maximum-scale='+scalez+',user-scalable=no" name="viewport">')//通过meta来实现缩放像素比的倍数
+		    }
+    //适配函数，动态修改html节点字号
+		    function reset(){
+		        var htmlo=document.getElementsByTagName('html')[0],
+		            clientW=document.documentElement.clientWidth || document.body.clientWidth,
+		            fontSz=clientW/6.4+'px';
+		        htmlo.style.fontSize=fontSz;
+		         
+		    }
+    //调用一像素显示
+   			 getOnePx();
+    //初始进来执行一次适配
+    			reset();
+    //当屏幕旋转的时候，再次执行一次适配
+		    window.addEventListener('resize',function(){
+		        setTimeout(function(){reset();},100);
+		    },false)
+		    
+		    
+		    
+		    
+		    function click1(obj){
+			 var index=$(this).index();
+			 var symbol= obj.getAttribute("symbol"); //自定义属性采用此方式获得
+			
+			 alert(symbol);
+			}
+
+		
+    </script>
+    
+     
+     <style type="text/css">
+         html,body{
+             width: 100%;
+             height: 100%;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+         }
+    	.content{
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            padding-bottom: 1rem;
+            box-sizing: border-box;
+            position: relative;
+        }
+     
+    	#zhang{
+            width: 100%;
+            height: 100%;
+            /*padding-top: 1rem;*/
+        }
+    	#zhang div{
+            float: left;
+            font-size: 0.23rem;
+            text-align: center;
+        }
+    	.imgg{
+            width: 100%;
+            height: 1rem;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #000000;
+        }
+        .imgg>span{
+        	display: flex;
+        	flex-direction:row;
+    		width: 100%;
+    		height: 30%;
+    		text-align: center;
+    		color: #FFFFFF;
+    		font-size: 0.165rem;
+    		line-height: 0.33rem;
+        }
+        .imgg .img1{
+        	display: block;
+        	text-align: center;
+        }
+    	.img21,.img22,.img23,.img31,.img32,.img33{
+    		display: block;
+    		height: 100%;
+    		float: left;    		
+    		flex: 2;
+    		text-align: left;
+    		margin: 0;
+    		font-size: 0.2rem;
+    	}
+    	.img25,.img26,.img27,.img35,.img36,.img37{
+    		display: block;
+    		height: 100%;
+    		float: right;    	
+    		flex: 2;
+    		text-align: right;
+    		margin: 0;
+    		font-size: 0.2rem;
+    	}
+    	
+    	.img2 .img24,.img3 .img34{
+    		display: block;
+    		height: 100%;
+    		float: left;    		
+    		flex: 1;
+    		text-align: center;
+    		margin: 0;
+    		font-size: 0.2rem;
+    	} 
+    	
+    	
+        .tianjiade{
+            display: block;
+            width: 100%;
+            height: 100%;
+            float: left;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            text-align: center;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            overflow: hidden;
+        }
+     
+    	
+        /*.c0 div,.c1 div,.c2 div,.c3 div,.c4 div,.c5 div,.c6 div,.c7{
+         width: 100%;
+         float: left;
+         text-align: center;
+         border: 1px solid #000000;
+         box-sizing: border-box;
+         
+         display: table-cell;
+         vertical-align: middle;
+         }*/
+    	
+        
+         </style>
+</head>
+<body>
+	<div class="content">
+		<div id="zhang">
+			
+		</div>
+        <div class="imgg">
+            <span class="img1">地图面积越大代表主力资金流入/流出越大，地图红绿颜色深浅代表涨跌幅大小！</span>
+            <span class="img2">
+                <span class="img21" style="background: #fa3336;"></span>
+                <span class="img22" style="background: #c43e49;"></span>
+                <span class="img23" style="background: #6c3940;"></span>
+                <span class="img24" style="background: #424355;"></span>
+                <span class="img25" style="background: #2ccd59;"></span>
+                <span class="img26" style="background: #359b51;"></span>
+                <span class="img27" style="background: #214d34;"></span>
+            </span>
+            <span class="img3">
+            	<span class="img31">+10%</span>
+            	<span class="img32">+5%</span>
+            	<span class="img33">+2%</span>
+            	<span class="img34">0%</span>
+            	<span class="img35">-2%</span>
+            	<span class="img36">-5%</span>
+            	<span class="img37">-10%</span>
+            </span>
+        </div>
+	</div>
+	
+	
+	<script type="text/javascript" src="jquery-1.11.3.js" ></script>
+	<script type="text/javascript"></script>
+	
+	
+	
+	<script type="text/javascript" src="index.js" ></script>
+	
+	
+	    <script type="text/javascript">
+    	
+//var list={
+//"list": [
+//{ "num":"31.3" , "name":"生物识别" , "zdf":"0.13" ,"symbol":"sw000001"},
+//{ "num":"46.2" , "name":"阿狸概念" , "zdf":"-4" ,"symbol":"al000002"},
+//{ "num":"62.3" , "name":"增强现实" , "zdf":"2.5" ,"symbol":"zq000003"},
+//{ "num":"14" , "name":"中韩自贸" , "zdf":"0.18" ,"symbol":"zh000004"},
+//{ "num":"28" , "name":"仰视50" , "zdf":"5.2" ,"symbol":"ys000005"},
+//{ "num":"11.6" , "name":"福州新区" , "zdf":"0.23" ,"symbol":"fz000006"},
+//{ "num":"11" , "name":"超级品牌" , "zdf":"0.10" ,"symbol":"cj000007"},
+//{ "num":"19" , "name":"黄金水道" , "zdf":"-0.3" ,"symbol":"hj000008"},
+//{ "num":"8.6" , "name":"智慧城市" , "zdf":"-0.2" ,"symbol":"zh000009"},
+//{ "num":"7.4" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"6.6" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"5.9" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"5.6" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"5.6" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"5.5" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"5.5" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"4.2" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"3.8" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"3.5" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"3.1" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"3" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.7" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.7" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.6" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.5" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.5" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.4" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.2" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"2.2" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//{ "num":"31" , "name":"bbb" , "zdf":"222" ,"symbol":"zh000009"},
+//]
+//}
+
+var wb; // 全局变量，用于调用原生或者注册js方法
+/*
+ setupWebViewJavascriptBridge 是第三方框架桥接文件。复制就好
+ 
+ 注意括号问题。
+ */
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+        setupWebViewJavascriptBridge(function(bridge) {
+                                     wb =  bridge;
+                                     bridge.registerHandler('showAlert', function(data, responseCallback) {
+                                                            responseCallback('js收到了');
+                                                           // shuaxin();
+                                                    
+                                                            huizhitu(data);
+                                                            });
+                                     
+                                     });
+
+		//location.reload()
+   		//huizhitu(list);
+    </script>
+</body>
+</html>

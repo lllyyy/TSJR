@@ -1,0 +1,24 @@
+//
+//  MMBaseTextField.m
+//  Doctor
+//
+//  Created by 卢杨 on 2019/1/14.
+//  Copyright © 2019 com.cti. All rights reserved.
+//
+
+#import "MMBaseTextField.h"
+
+@implementation MMBaseTextField
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+    if (action == @selector(paste:))//禁止粘贴
+        return NO;
+    if (action == @selector(select:))// 禁止选择
+        return NO;
+    if (action == @selector(selectAll:))// 禁止全选
+        return NO;
+    return [super canPerformAction:action withSender:sender];
+}
+ 
+@end
